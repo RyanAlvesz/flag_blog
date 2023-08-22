@@ -14,14 +14,16 @@
 
 body{
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 120px;
     padding-inline: 120px;
+    gap: 100px;
     height: 125px;
 }
 
@@ -33,13 +35,40 @@ h1{
 
 .container-options{
     display: flex;
+    gap: 24px;
 }
 
 .options{
     display: flex;
+    align-items: center ;
     gap: 30px;
     font-family: var(--font-text);
     font-size: 1rem;
     cursor: pointer;
 }
 
+.social{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-start{
+    display: flex;
+}
+
+.start-description{
+    display: flex;
+
+}
+.start-description
+
+.slide-img img{
+    width: 500px;
+    height: 450px;
+}
