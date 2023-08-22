@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-title: 'Caprasimo', cursive;
+    --font-blog: 'Courier Prime', monospace;
+    --font-text: 'Poppins', sans-serif;
+    --blue: #022542;
+    --yellow: #FFDF8B;
+}
+
+body{
+    display: flex;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+    padding-inline: 120px;
+    height: 125px;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: var(--font-title);
+    color: var(--blue);
+}
+
+.container-options{
+    display: flex;
+}
+
+.options{
+    display: flex;
+    gap: 30px;
+    font-family: var(--font-text);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
