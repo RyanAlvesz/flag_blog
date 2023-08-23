@@ -82,17 +82,17 @@ main{
     display: flex;
     flex-direction: column;
     gap: 64px;
-    padding: 24px 120px 64px 120px;
+    padding: 24px 120px 72px 120px;
 }
 
-.book-area{
+.selibi-area{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 64px;
 }
 
-.book-area .book-img{
+.selibi-area .selibi-img{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,12 +100,12 @@ main{
     padding: 32px;
 }
 
-.book-img img{
+.selibi-img img{
     width: 18rem;
     height: 26rem;
 }
 
-.book-area .book-details{
+.selibi-area .selibi-details{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -114,24 +114,17 @@ main{
     gap: 32px;
 }
 
-.book-details .book-title{
+.selibi-details .selibi-title{
     font-family: var(--font-blog);
     font-weight: 400;
     font-size: 2.2rem;
     width: max-content;
 }
 
-.book-details .book-synopsis{
+.selibi-details .selibi-description{
     text-align: justify;
     font-size: 1.5rem;
 } 
-
-.book-details .book-info{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.4rem;
-    font-weight: 600;
-}
 
 .comments-area{
     display: flex;
@@ -144,6 +137,14 @@ main{
 .comments-area h2{
     color: var(--blue);
     font-size: 2rem;
+}
+
+.comments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 64px;
 }
 
 .comment-info{
@@ -167,19 +168,32 @@ main{
     background-repeat: no-repeat;
 }
 
-#laura{
-    background-image: url(../img/icons/wendy.jpg);
-    background-position-x: 12%;
+#joao{
+    background-image: url(../img/icons/);
 }
 
-#ana{
-    background-image: url(../img/icons/bruninho.png);
-    background-position: right;
+#ribeiro{
+    background-image: url(../img/icons/);
 }
 
-#ryan{
-    background-image: url(../img/icons/taylor.jpeg);
-    background-position-x: 10%;
+#guedes{
+    background-image: url(../img/icons/);
+}
+
+#julia{
+    background-image: url(../img/icons/);
+}
+
+#nicholas{
+    background-image: url(../img/icons/);
+}
+
+#gabriela{
+    background-image: url(../img/icons/sheilla.jpg);
+}
+
+#mariana{
+    background-image: url(../img/icons/gracie.jpg);
 }
 
 .user .username{
