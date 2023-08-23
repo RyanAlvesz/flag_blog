@@ -169,7 +169,7 @@ main{
 }
 
 #joao{
-    background-image: url(../img/icons/);
+    background-image: url(../img/icons/scarface.jpg);
 }
 
 #ribeiro{
@@ -181,11 +181,12 @@ main{
 }
 
 #julia{
-    background-image: url(../img/icons/);
+    background-image: url(../img/icons/palmeiras.jpg);
 }
 
 #nicholas{
-    background-image: url(../img/icons/);
+    background-image: url(../img/icons/messi.jpg);
+    background-position: 45%;
 }
 
 #gabriela{
@@ -194,6 +195,15 @@ main{
 
 #mariana{
     background-image: url(../img/icons/gracie.jpg);
+}
+
+#sara{
+    background-image: url(../img/icons/diana.jpg);
+    background-position: 20%;
+}
+
+#paiva{
+    background-image: url(../img/icons/pompompurin.jpg);
 }
 
 .user .username{

@@ -37,6 +37,7 @@ h1{
 .container-options{
     display: flex;
     gap: 2rem;
+    height: 100%;
 }
 
 .options{
@@ -51,9 +52,32 @@ h1{
 .options a{
     color: initial;
     text-decoration: none;
+    justify-content: center;
 }
 
-.options a:hover span{
+.options a:nth-child(2){
+    display: flex;
+    position: relative;
+    background-color: var(--white);  
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.book-option{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    font-size: 12px;
+    /* top: 100%; */
+    background-color: var(--white);
+    z-index: 1;
+    padding: 12px 6px;
+    gap: 12px;
+}
+
+.options a:hover{
     font-weight: 600;
 }
 
