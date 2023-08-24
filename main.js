@@ -1,6 +1,8 @@
 'use strict'
 
 const optionLivro = document.getElementById('book-option')
+let count = 1
+document.getElementById('radio1').checked = true;
 
 function showBooks () {
 
@@ -14,6 +16,22 @@ function exist () {
 
 }
 
+setInterval( function(){
+    nextImage()
+}, 4000)
+
+function nextImage() {
+    count++
+    if(count > 4){
+        count = 1   
+    }
+
+    document.getElementById('radio' + count).checked = true
+
+}
+
 optionLivro.addEventListener('mouseover', showBooks)
 optionLivro.addEventListener('mouseenter', showBooks)
 optionLivro.addEventListener('mouseleave', exist)
+
+
