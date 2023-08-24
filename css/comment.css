@@ -1,0 +1,108 @@
+.comments-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.comments-area h2{
+    color: var(--blue);
+    font-size: 2rem;
+}
+
+.comments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+}
+
+.comment-info{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    place-self: start;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user .icon{
+    height: 64px;
+    width: 64px;
+    border-radius: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.user .username{
+    font-size: 1.6rem;
+    font-family: var(--font-blog);
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.comment{
+    font-size: 1.4rem;
+}
+
+#laura{
+    background-image: url(../img/icons/wendy.jpg);
+    background-position-x: 12%;
+}
+
+#ana{
+    background-image: url(../img/icons/bruninho.png);
+    background-position: right;
+}
+
+#ryan{
+    background-image: url(../img/icons/taylor.jpeg);
+    background-position-x: 10%;
+}
+
+#joao{
+    background-image: url(../img/icons/scarface.jpg);
+}
+
+#ribeiro{
+    background-image: url(../img/icons/flores.jpg);
+}
+
+#guedes{
+    background-image: url(../img/icons/guedes.jpg);
+}
+
+#julia{
+    background-image: url(../img/icons/palmeiras.jpg);
+}
+
+#nicholas{
+    background-image: url(../img/icons/messi.jpg);
+    background-position: 45%;
+}
+
+#gabriela{
+    background-image: url(../img/icons/sheilla.jpg);
+}
+
+#mariana{
+    background-image: url(../img/icons/gracie.jpg);
+}
+
+#sara{
+    background-image: url(../img/icons/diana.jpg);
+    background-position: 20%;
+}
+
+#paiva{
+    background-image: url(../img/icons/pompompurin.jpg);
+}
+
+

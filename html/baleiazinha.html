@@ -6,7 +6,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Courier+Prime:wght@400;700&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./books.css">
+    <link rel="stylesheet" href="../css/books.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/comment.css">
+    <link rel="icon" href="../img/favicon.png">
+    <script src="../main.js" defer></script>
     <title>A baleiazinha</title>
 </head>
 <body>
@@ -17,13 +23,18 @@
                 <a href="../index.html">
                     <span>Início</span>
                 </a>
-                <a href="#">
-                    <span>Livros</span>
-                </a>
-                <a href="../selibi/selibi.html">
+                <div class="book-options overflow" id="book-option">
+                    <span> Livros </span>
+                    <div class="books-flag">
+                        <a href="./contadora-historias.html"> A Contadora de Histórias </a>
+                        <a href="./melhor-presente.html"> O Melhor Presente </a>
+                        <a href="#"> A Baleiazinha </a>
+                    </div>
+                </div>    
+                <a href="./selibi.html">
                     <span>SELIBI 2023</span>
                 </a>
-                <a href="#">
+                <a href="./biografia.html">
                     <span>Biografia</span>
                 </a>
             </div>
@@ -61,16 +72,18 @@
         </div>
         <div class="comments-area">
             <h2>Comentários</h2>
-            <div class="comment-info">
-                <div class="user">
-                    <div class="icon" id="ryan"></div>
-                    <span class="username">
-                        ryan.alvesz
-                    </span>
+            <div class="comments">
+                <div class="comment-info">
+                    <div class="user">
+                        <div class="icon" id="ryan"></div>
+                        <span class="username">
+                            ryan.alvesz
+                        </span>
+                    </div>
+                    <p class="comment">
+                        Meu comentário cis ficará aqui
+                    </p>
                 </div>
-                <p class="comment">
-                    Meu comentário cis ficará aqui
-                </p>
             </div>
         </div>
     </main>

@@ -1,0 +1,83 @@
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr auto;
+    padding: 32px 120px;
+    background-color: #022542;
+    gap: 24px;
+    color: var(--white);
+    text-align: justify;
+}
+
+.footer-info p{
+    width: 80%;
+}
+
+.footer-name, .footer-info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+footer h2{
+    font-size: 1.3rem;
+    color: var(--yellow);
+}
+
+.footer-info h2:first-child{
+    font-family: var(--font-title);
+    font-size: 1.5rem;
+}
+
+.footer-name .names{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form input, form button{
+    width: 300px;
+    height: 33px;
+    font-family: var(--font-text);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.15rem;
+    background: var(--white);
+    border: none;
+    padding-left: 16px;
+}
+
+form button{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 100px;
+    background-color: var(--yellow);
+    color: var(--blue);
+    border: none;
+    font-weight: 600;
+}

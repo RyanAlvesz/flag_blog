@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    grid-template-rows: 125px 1fr auto;
+    min-height: 100vh;
+    font-family: var(--font-text);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 24px 120px 72px 120px;
+}
+
+.selibi-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.selibi-area .selibi-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 14px var(--blue);
+    padding: 32px;
+}
+
+.selibi-img img{
+    width: 18rem;
+    height: 26rem;
+}
+
+.selibi-area .selibi-details{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    padding-block: 64px;
+    gap: 32px;
+}
+
+.selibi-details .selibi-title{
+    font-family: var(--font-blog);
+    font-weight: 400;
+    font-size: 2.2rem;
+    width: max-content;
+}
+
+.selibi-details .selibi-description{
+    text-align: justify;
+    font-size: 1.5rem;
+} 
+

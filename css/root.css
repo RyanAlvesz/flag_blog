@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-title: 'Caprasimo', cursive;
+    --font-blog: 'Courier Prime', monospace;
+    --font-text: 'Poppins', sans-serif;
+    --blue: #022542;
+    --ligth-blue: #0059A3;
+    --yellow: #FFDF8B;
+    --white: #FFFFFF;
+}

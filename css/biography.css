@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    grid-template-rows: 125px auto auto;
+    min-height: 100vh;
+    font-family: var(--font-text);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    padding: 24px 120px 32px 120px;
+}
+
+main .biography-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 14px var(--blue);
+    padding: 32px;
+    min-width: 23rem
+}
+
+.biography-img img{
+    width: 18rem;
+    height: 26rem;
+}
+
+main .biography-details{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    padding-block: 64px;
+    gap: 32px;
+}
+
+.biography-details .biography-title{
+    font-family: var(--font-blog);
+    font-weight: 400;
+    font-size: 2.2rem;
+    width: max-content;
+}
+
+.biography-details .biography{
+    text-align: justify;
+    font-size: 1.2rem;
+} 
