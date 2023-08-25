@@ -81,3 +81,41 @@ form button{
     border: none;
     font-weight: 600;
 }
+
+@media (max-width: 992px) {
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        padding-inline: 32px;
+        gap: 32px;
+    }
+
+    .footer-info{
+        align-items: center;
+    }
+
+    .footer-info p{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer * p, footer * span{
+        font-size: 16px;
+    }
+
+    .footer-name, .footer-name .names{
+        align-items: center;
+    }
+
+    .contact{
+        align-items: center;
+    }
+
+    .contact form{
+        align-items: center;
+    }
+
+}

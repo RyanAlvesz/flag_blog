@@ -106,3 +106,25 @@
 }
 
 
+@media (max-width: 992px){
+
+    .comments-area h2{
+        font-size: 1.6rem;
+    }
+    
+    .user{
+        flex-direction: column;
+    }
+    
+    .user .icon{
+        height: 80px;
+        width: 80px;
+    }
+    
+    .comment{
+        padding-inline: 32px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+}

@@ -59,3 +59,44 @@ main{
     font-size: 1.4rem;
     font-weight: 600;
 }
+
+@media (max-width: 992px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        padding-inline: 0;
+    }
+
+    .book-area{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .book-img img{
+        width: 14rem;
+        height: 20rem;
+    }
+
+    .book-area .book-details{
+        padding: 0;
+        width: 80%;
+        align-items: center;
+    }
+
+    .book-details .book-title{
+        font-size: 140%;
+    }
+
+    .book-details .book-synopsis{
+        font-size: 1.2rem;
+    }
+
+    .book-info{
+        place-self: flex-start;
+    }
+
+}

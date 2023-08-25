@@ -19,7 +19,6 @@ main .biography-img{
     justify-content: center;
     border: solid 14px var(--blue);
     padding: 32px;
-    min-width: 23rem
 }
 
 .biography-img img{
@@ -47,3 +46,41 @@ main .biography-details{
     text-align: justify;
     font-size: 1.2rem;
 } 
+
+@media (max-width: 992px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        padding-inline: 0;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    main .biography-img{
+        order: -1;
+    }
+
+    .biography-img img{
+        width: 14rem;
+        height: 20rem;
+    }
+
+    main .biography-details{
+        padding: 0;
+        width: 80%;
+        align-items: center;
+    }
+
+    .biography-details .biography-title{
+        font-size: 140%;
+    }
+
+    .biography-details .biography{
+        font-size: 1.2rem;
+    }
+
+}
