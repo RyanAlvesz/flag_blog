@@ -107,6 +107,7 @@ h1{
         position: sticky;
         top: 0%;
         background-color: var(--white);
+        z-index: 1;
     }
 
     .container-options{
@@ -142,11 +143,11 @@ h1{
         left: 0;
         right: 0;
         bottom: 0;
-        z-index: 99;
         background-color: var(--blue);
         color: white;
         list-style: none;
         padding-top: 4rem;
+        z-index: 5;
     }
 
     .menu a{

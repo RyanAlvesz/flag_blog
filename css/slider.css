@@ -10,6 +10,7 @@
     height: 35.4rem;
     display: flex;
     position: relative;
+    z-index: -1;
 }
 
 .slides input{
@@ -69,7 +70,7 @@
 } 
 
 .navigation-auto div{
-    border: 2px solid var(--blue);  
+    border: 2px solid var(--white);  
     padding: 8px;
     border-radius: 10px;
     cursor: pointer;
@@ -83,7 +84,6 @@
     display: flex;
     justify-content: center;
 }
-
 
 .navigation-auto div:not(:last-child){
     margin-right: 40px;
@@ -103,4 +103,38 @@
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: var(--white);
+}
+
+@media (max-width: 992px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider{
+        width: 18.75rem;
+        height: 14rem;
+        order: -1;
+    }
+
+    .slides{
+        height: 14rem;
+    }
+
+    .slide img{
+        width: 18.75rem;
+        height: 14rem;
+    }
+
+    .manual-navigation{
+        width: 18.75rem;
+        margin-top: -36px;
+        height: auto;
+    }
+
+    .navigation-auto{
+        width: 18.75rem;
+    }
+
 }

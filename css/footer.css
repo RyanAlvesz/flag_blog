@@ -118,4 +118,8 @@ form button{
         align-items: center;
     }
 
+    form input, form button{
+        height: 40px;   
+    }
+
 }

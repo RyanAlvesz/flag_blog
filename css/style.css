@@ -36,7 +36,6 @@ main{
     width: 49rem;
     height: 17.5rem;
     top: 6%;
-    z-index: 2;
     left: -10%;
 }
 
@@ -130,4 +129,53 @@ main{
 .book-title a:hover{
     color: var(--ligth-blue);
     text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+ 
+    main{
+        padding-top: 24px;
+    }
+
+    .section-start{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 32px;
+        gap: 24px;
+    }
+
+    .start-description{
+        height: fit-content;
+        padding: 0;
+    }
+
+    .start-description p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .start-description img{
+        display: none;
+        position: static;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .books-container{
+        flex-direction: column;
+    }
+
+    .section-books h2{
+        font-size: 1.6rem;
+    }
+
+    .book-img a img{
+        width: 100%;
+    }
+    
+    .book-img a{
+        width: 14rem;
+        height: 20rem;
+    }
+
 }
