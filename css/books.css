@@ -9,7 +9,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 64px;
-    padding: 24px 120px 64px 120px;
+    padding: 24px 60px 64px 60px;
 }
 
 .book-area{
@@ -60,7 +60,7 @@ main{
     font-weight: 600;
 }
 
-@media (max-width: 992px){
+@media (max-width: 768px){
 
     body{
         display: flex;

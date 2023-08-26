@@ -1,7 +1,7 @@
 footer{
     display: grid;
     grid-template-columns: 2fr 1fr auto;
-    padding: 32px 120px;
+    padding: 32px 60px;
     background-color: #022542;
     gap: 24px;
     color: var(--white);
@@ -82,7 +82,7 @@ form button{
     font-weight: 600;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
 
     footer{
         display: flex;

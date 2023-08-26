@@ -10,7 +10,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 64px;
-    padding: 24px 120px 32px 120px;
+    padding: 24px 60px 32px 60px;
 }
 
 main .biography-img{
@@ -47,7 +47,7 @@ main .biography-details{
     font-size: 1.2rem;
 } 
 
-@media (max-width: 992px){
+@media (max-width: 768px){
 
     body{
         display: flex;
