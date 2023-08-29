@@ -14,6 +14,7 @@
     <link rel="icon" href="../img/favicon.png">
     <script src="../js/books.js" defer></script>
     <script src="../js/menu.js" defer></script>
+    <script src="../js/language.js" defer></script>
     <title>O Melhor Presente</title>
 </head>
 <body>
@@ -22,24 +23,44 @@
         <div class="container-options">
             <div class="options">
                 <a href="../index.html">
-                    <span>Início</span>
+                    <span class="portugues">Início</span>
+                    <span class="english">Home</span>
                 </a>
                 <div class="book-options overflow" id="book-option">
-                    <span> Livros </span>
+                    <span class="portugues"> Livros </span>
+                    <span class="english">Books</span>
                     <div class="books-flag">
-                        <a href="./contadora-historias.html"> A Contadora de Histórias </a>
-                        <a href="#"> O Melhor Presente </a>
-                        <a href="./baleiazinha.html"> A Baleiazinha </a>
+                        <a href="./contadora-historias.html"> 
+                            <span class="portugues"> A Contadora de Histórias </span> 
+                            <span class="english"> The Storyteller </span> 
+                        </a>
+                        <a href="#"> 
+                            <span class="portugues"> O Melhor Presente </span>
+                            <span class="english"> The Best Gift </span>
+                        </a>
+                        <a href="./baleiazinha.html">
+                             <span class="portugues"> A Baleiazinha </span> 
+                             <span class="english"> The Little Whale </span> 
+                        </a>
                     </div>
                 </div>    
                 <a href="./selibi.html">
                     <span>SELIBI 2023</span>
                 </a>
                 <a href="./biografia.html">
-                    <span>Biografia</span>
+                    <span class="portugues">Biografia</span>
+                    <span class="english">Biography</span>
                 </a>
             </div>
             <div class="social">
+                <div class="flags">
+                    <a href="#">
+                        <img id="change-language-eua" src="../img/bandeira-eua.jpg" alt="Bandeira dos Estados Unidos">
+                    </a>
+                    <a href="#">
+                        <img style="display: none;" id="change-language-pt" src="../img/bandeira-brasil.jpg" alt="Bandeira do Brasil">
+                    </a>
+                </div>
                 <a href="https://www.youtube.com/pedrobandeiraescritor">
                     <img src="../img/youtube.svg" alt="Logo do Youtube">
                 </a>
@@ -52,12 +73,33 @@
             </div>
         </div>
         <ul class="menu">
-            <li><a class="menuItem" href="../index.html">Início</a></li>
-            <li><a class="menuItem" href="./contadora-historias.html">A Contadora de Histórias</a></li>
-            <li><a class="menuItem" href="#">O Melhor Presente</a></li>
-            <li><a class="menuItem" href="./baleiazinha.html">A Baleiazinha</a></li>
-            <li><a class="menuItem" href="./selibi.html">SELIBI 2023</a></li>
-            <li><a class="menuItem" href="./biografia.html">Biografia</a></li>
+            <li><a class="menuItem" href="../index.html">
+                <span class="portugues">Início</span>
+                <span class="english">Home</span>
+            </a></li>
+            <li><a class="menuItem" href="./contadora-historias.html">
+                <span class="portugues"> A Contadora de Histórias </span> 
+                <span class="english"> The Storyteller </span> 
+            </a></li>
+            <li><a class="menuItem" href="#">
+                <span class="portugues"> O Melhor Presente </span>
+                <span class="english"> The Best Gift </span>
+            </a></li>
+            <li><a class="menuItem" href="./baleiazinha.html">
+                <span class="portugues"> A Baleiazinha </span> 
+                <span class="english"> The Little Whale </span>
+            </a></li>
+            <li><a class="menuItem" href="./selibi.html">
+                SELIBI 2023
+            </a></li>
+            <li><a class="menuItem" href="./biografia.html">
+                <span class="portugues">Biografia</span>
+                <span class="english">Biography</span>
+            </a></li>
+            <li><a href="#">
+                <span class="portugues" id="change-language-eua-mobile"> Translate to english</span>
+                <span class="english" id="change-language-pt-mobile"> Traduzir para Português </span>
+            </a></li>
         </ul>
         <button class="hamburger">
         <i class="menuIcon"><img src="../img/menu.svg" alt="3 barras horizontais"></i>
@@ -105,14 +147,21 @@
             <h2 class="logo">
                 FlagBlog
             </h2>             
-            <p> 
+            <p class="portugues"> 
                 Trabalho  criado por alunos do 2 ano do Ensino Médio do SESI Carapicuíba para SELIBI. 
                 Orientado pelas professoras Shirley Rudnik e Regiane Ferreira. 
             </p>
+            <p class="english"> 
+                Work created by SESI Carapicuíba 2nd year high school students for SELIBI.
+                Guided by teachers Shirley Rudnik and Regiane Ferreira.
+            </p>
         </div>
         <div class="footer-name">
-            <h2 class="name-title">
+            <h2 class="name-title portugues">
                 Feito por
+            </h2>
+            <h2 class="name-title english">
+                Made by
             </h2>
             <div class="names">
                 <span>Ana Clara Menezes</span>
@@ -121,10 +170,13 @@
             </div>
         </div>
         <div class="contact">
-            <h3>Mantenha Contato</h3>
+            <h3 class="portugues">Mantenha Contato</h3>
+            <h3 class="english">Keep in touch</h3>
             <form>
-                <input type="email" placeholder="Adicione o seu email">
-                <button type="submit"> Enviar </button>
+                <input type="email" class="portugues" placeholder="Adicione o seu email">
+                <input type="email" class="english" placeholder="Add your email">
+                <button type="submit" class="portugues"> Enviar </button>
+                <button type="submit" class="english"> Send </button>
             </form>
         </div>
     </footer>

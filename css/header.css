@@ -88,8 +88,16 @@ h1{
     width: 1.6rem;
 }
 
-.social a:last-child img, .social a:first-child img{
+.social a:last-child img, .social a:nth-child(2) img{
     width: 1.8rem
+}
+
+#change-language-eua{
+    width: 2rem;
+}
+
+#change-language-pt{
+    width: 2rem;
 }
 
 .menu, .hamburger{
@@ -154,6 +162,14 @@ h1{
         text-decoration: none;
         font-size: 1.4rem;
         color: var(--yellow);
+    }
+
+    .menu li:last-child{
+        padding-top: 24px;
+    }
+
+    .menu li:last-child a{
+        color: var(--white);
     }
 
     .closeIcon {

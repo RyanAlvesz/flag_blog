@@ -13,98 +13,153 @@
     <link rel="icon" href="../img/favicon.png">
     <script src="../js/books.js" defer></script>
     <script src="../js/menu.js" defer></script>
+    <script src="../js/language.js" defer></script>
     <title>Biografia Pedro Bandeira</title>
 </head>
-<header>
-    <h1>FlagBlog</h1>
-    <div class="container-options">
-        <div class="options">
-            <a href="../index.html">
-                <span>Início</span>
-            </a>
-            <div class="book-options overflow" id="book-option">
-                <span> Livros </span>
-                <div class="books-flag">
-                    <a href="../html/contadora-historias.html"> A Contadora de Histórias </a>
-                    <a href="../html/melhor-presente.html"> O Melhor Presente </a>
-                    <a href="../html/baleiazinha.html"> A Baleiazinha </a>
+<body>
+    <header>
+        <h1>FlagBlog</h1>
+        <div class="container-options">
+            <div class="options">
+                <a href="../index.html">
+                    <span class="portugues">Início</span>
+                    <span class="english">Home</span>
+                </a>
+                <div class="book-options overflow" id="book-option">
+                    <span class="portugues"> Livros </span>
+                    <span class="english">Books</span>
+                    <div class="books-flag">
+                        <a href="./contadora-historias.html"> 
+                            <span class="portugues"> A Contadora de Histórias </span> 
+                            <span class="english"> The Storyteller </span> 
+                        </a>
+                        <a href="./melhor-presente.html"> 
+                            <span class="portugues"> O Melhor Presente </span>
+                            <span class="english"> The Best Gift </span>
+                        </a>
+                        <a href="./baleiazinha.html">
+                             <span class="portugues"> A Baleiazinha </span> 
+                             <span class="english"> The Little Whale </span> 
+                        </a>
+                    </div>
+                </div>    
+                <a href="./selibi.html">
+                    <span>SELIBI 2023</span>
+                </a>
+                <a href="#">
+                    <span class="portugues">Biografia</span>
+                    <span class="english">Biography</span>
+                </a>
+            </div>
+            <div class="social">
+                <div class="flags">
+                    <a href="#">
+                        <img id="change-language-eua" src="../img/bandeira-eua.jpg" alt="Bandeira dos Estados Unidos">
+                    </a>
+                    <a href="#">
+                        <img style="display: none;" id="change-language-pt" src="../img/bandeira-brasil.jpg" alt="Bandeira do Brasil">
+                    </a>
                 </div>
-            </div>    
-            <a href="./selibi.html">
-                <span>SELIBI 2023</span>
-            </a>
-            <a href="#">
-                <span>Biografia</span>
-            </a>
+                <a href="https://www.youtube.com/pedrobandeiraescritor">
+                    <img src="../img/youtube.svg" alt="Logo do Youtube">
+                </a>
+                <a href="https://www.instagram.com/eupedrobandeira/">
+                    <img src="../img/instagram.svg" alt="Logo do Instagram">
+                </a>
+                <a href="https://pedrobandeira.com.br/">
+                    <img src="../img/site.svg" alt="Vetor de uma planeta">
+                </a>
+            </div>
         </div>
-        <div class="social">
-            <a href="https://www.youtube.com/pedrobandeiraescritor">
-                <img src="../img/youtube.svg" alt="Logo do Youtube">
-            </a>
-            <a href="https://www.instagram.com/eupedrobandeira/">
-                <img src="../img/instagram.svg" alt="Logo do Instagram">
-            </a>
-            <a href="https://pedrobandeira.com.br/">
-                <img src="../img/site.svg" alt="Vetor de uma planeta">
-            </a>
+        <ul class="menu">
+            <li><a class="menuItem" href="../index.html">
+                <span class="portugues">Início</span>
+                <span class="english">Home</span>
+            </a></li>
+            <li><a class="menuItem" href="./contadora-historias.html">
+                <span class="portugues"> A Contadora de Histórias </span> 
+                <span class="english"> The Storyteller </span> 
+            </a></li>
+            <li><a class="menuItem" href="./melhor-presente.html">
+                <span class="portugues"> O Melhor Presente </span>
+                <span class="english"> The Best Gift </span>
+            </a></li>
+            <li><a class="menuItem" href="./baleiazinha.html">
+                <span class="portugues"> A Baleiazinha </span> 
+                <span class="english"> The Little Whale </span>
+            </a></li>
+            <li><a class="menuItem" href="./selibi.html">
+                SELIBI 2023
+            </a></li>
+            <li><a class="menuItem" href="#">
+                <span class="portugues">Biografia</span>
+                <span class="english">Biography</span>
+            </a></li>
+            <li><a href="#">
+                <span class="portugues" id="change-language-eua-mobile"> Translate to english</span>
+                <span class="english" id="change-language-pt-mobile"> Traduzir para Português </span>
+            </a></li>
+        </ul>
+        <button class="hamburger">
+        <i class="menuIcon"><img src="../img/menu.svg" alt="3 barras horizontais"></i>
+        <i class="closeIcon"><img src="../img/close-menu.svg" alt="Um 'X'"></i>
+        </button>
+    </header>
+    <main>
+        <div class="biography-details">
+            <h2 class="biography-title">Biografia</h2>
+            <p class="biography">
+                Nascido em Santos, no ano de 1942, Pedro Bandeira se mudou para a capital de São Paulo
+                em 1961, com o objetivo de estudar publicidade. Durante esse período, Pedro Bandeira
+                trabalhou como: ator, diretor cenógrafo, jornalista e freelancer. O seu reconhecimento
+                começou a partir do lançamento do livro “A droga da obediência”, que deu início a sua
+                série de livros “Os Karas”.  
+                Atualmente, o autor conta com mais de 50 obras, ele conta também com diversos prêmios,
+                como o troféu APCA da Associação Paulista de Críticos de Arte, o prêmio Jabuti, o prêmio
+                da Câmara Brasileira do Livro, medalha de honra ao mérito Braz Cubas, entre diversos outros.  
+            </p>
         </div>
-    </div>
-    <ul class="menu">
-        <li><a class="menuItem" href="../index.html">Início</a></li>
-        <li><a class="menuItem" href="./contadora-historias.html">A Contadora de Histórias</a></li>
-        <li><a class="menuItem" href="./melhor-presente.html">O Melhor Presente</a></li>
-        <li><a class="menuItem" href="./baleiazinha.html">A Baleiazinha</a></li>
-        <li><a class="menuItem" href="./selibi.html">SELIBI 2023</a></li>
-        <li><a class="menuItem" href="#">Biografia</a></li>
-    </ul>
-    <button class="hamburger">
-    <i class="menuIcon"><img src="../img/menu.svg" alt="3 barras horizontais"></i>
-    <i class="closeIcon"><img src="../img/close-menu.svg" alt="Um 'X'"></i>
-    </button>
-</header>
-<main>
-    <div class="biography-details">
-        <h2 class="biography-title">Biografia</h2>
-        <p class="biography">
-            Nascido em Santos, no ano de 1942, Pedro Bandeira se mudou para a capital de São Paulo
-            em 1961, com o objetivo de estudar publicidade. Durante esse período, Pedro Bandeira
-            trabalhou como: ator, diretor cenógrafo, jornalista e freelancer. O seu reconhecimento
-            começou a partir do lançamento do livro “A droga da obediência”, que deu início a sua
-            série de livros “Os Karas”.  
-            Atualmente, o autor conta com mais de 50 obras, ele conta também com diversos prêmios,
-            como o troféu APCA da Associação Paulista de Críticos de Arte, o prêmio Jabuti, o prêmio
-            da Câmara Brasileira do Livro, medalha de honra ao mérito Braz Cubas, entre diversos outros.  
-        </p>
-    </div>
-    <div class="biography-img">
-        <img src="../img/pedro-bio.png" alt="Pedro Bandeira Sorrindo">
-    </div>
-</main>
-<footer>
-    <div class="footer-info">
-        <h2 class="logo">
-            FlagBlog
-        </h2>             
-        <p> 
-            Trabalho  criado por alunos do 2 ano do Ensino Médio do SESI Carapicuíba para SELIBI. 
-                Orientado pelas professoras Shirley Rudnik e Regiane Ferreira.  
-        </p>
-    </div>
-    <div class="footer-name">
-        <h2 class="name-title">
-            Feito por
-        </h2>
-        <div class="names">
-            <span>Ana Clara Menezes</span>
-            <span>Laura Benavides</span>
-            <span>Ryan Alves</span>
+        <div class="biography-img">
+            <img src="../img/pedro-bio.png" alt="Pedro Bandeira Sorrindo">
         </div>
-    </div>
-    <div class="contact">
-        <h3>Mantenha Contato</h3>
-        <form>
-            <input type="email" placeholder="Adicione o seu email">
-            <button type="submit"> Enviar </button>
-        </form>
-    </div>
-</footer>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <h2 class="logo">
+                FlagBlog
+            </h2>             
+            <p class="portugues"> 
+                Trabalho  criado por alunos do 2 ano do Ensino Médio do SESI Carapicuíba para SELIBI. 
+                Orientado pelas professoras Shirley Rudnik e Regiane Ferreira. 
+            </p>
+            <p class="english"> 
+                Work created by SESI Carapicuíba 2nd year high school students for SELIBI.
+                Guided by teachers Shirley Rudnik and Regiane Ferreira.
+            </p>
+        </div>
+        <div class="footer-name">
+            <h2 class="name-title portugues">
+                Feito por
+            </h2>
+            <h2 class="name-title english">
+                Made by
+            </h2>
+            <div class="names">
+                <span>Ana Clara Menezes</span>
+                <span>Laura Benavides</span>
+                <span>Ryan Alves</span>
+            </div>
+        </div>
+        <div class="contact">
+            <h3 class="portugues">Mantenha Contato</h3>
+            <h3 class="english">Keep in touch</h3>
+            <form>
+                <input type="email" class="portugues" placeholder="Adicione o seu email">
+                <input type="email" class="english" placeholder="Add your email">
+                <button type="submit" class="portugues"> Enviar </button>
+                <button type="submit" class="english"> Send </button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

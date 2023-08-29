@@ -13,3 +13,7 @@
     --yellow: #FFDF8B;
     --white: #FFFFFF;
 }
+
+.english{
+    display: none;
+}
